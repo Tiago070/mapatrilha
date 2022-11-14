@@ -1,3 +1,72 @@
 body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(21, 157, 3);
+}
+
+#mapa{
     background-image: url("https://user-images.githubusercontent.com/115472816/201484800-83928331-427e-4313-950f-ff3b5d836d7a.png");
+    background-size: 100%;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+} 
+
+#fab_racao{
+    background-color: transparent;
+    border: none;
+    margin-left: 630px;
+}
+
+#entrada_IF{
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    margin-left: 531px;
+    display: inline-block;
+}
+
+#centro_eco{
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    margin-left: 530px;
+    float: left;
+}
+
+#equoterapia{
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    margin-left: 0px;
+    display: inline-block;
+}
+
+#agro_ind{
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    margin-left: 200px;
+}
+
+#ponto5{
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    margin-left: 1220px;
+}
+
+#ponto4{
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    margin-left: 940px;
+}
+
+#ponto3{
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    margin-left: 440px;
 }
