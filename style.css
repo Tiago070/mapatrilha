@@ -1,20 +1,20 @@
 @font-face{
     font-family: 'BaVfont';
-    src: url('Black\ and\ Violet\ -\ Personal\ Use.otf');
+    src: url('PinkChicken-Regular.ttf');
 }
 
 body{
     font-family: 'BaVfont';
-    color: rgb(3, 31, 3);
-    background-color: rgb(184, 250, 184);
+    color: #2b3308;
+    background-color: #C3D48B;
 }
 
-h1{
+#aaae{
     text-align: center;
-    font-size: 4em;
+    font-size: 2em;
 }
 #mapa{
-    background-image: url("https://user-images.githubusercontent.com/115472816/201754107-794473eb-82f0-4982-894d-653e671a6eb4.png");
+    background-image: url("https://user-images.githubusercontent.com/115472816/202016194-4050db9c-3f58-4d2e-b77e-088dd55c0781.png");
     background-size: 100%;
 }
 
