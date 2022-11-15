@@ -54,14 +54,23 @@ a:link, a:visited{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 1220px;
+    margin-left: 1230px;
 }
+
+#ponto1{
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    margin-left: 170px;
+}
+
 
 #ponto4{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 940px;
+    margin-left: 830px;
+    display: inline-block;
 }
 
 #ponto3{
@@ -69,4 +78,12 @@ a:link, a:visited{
     border: none;
     padding: 0px;
     margin-left: 440px;
+    margin-bottom: 24px;
+}
+
+#ponto2{
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    margin-left: 27px;
 }
