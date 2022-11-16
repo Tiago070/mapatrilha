@@ -17,7 +17,7 @@ body{
 figcaption{
     font-family:'BaVfont';
     color:#C3D48B;
-    font-size: 2em;
+    font-size: 1.2em;
     background-color: #2b3308;
     border-style: solid;
     border-color: #5f7014;
@@ -29,7 +29,7 @@ figcaption{
     background-image: url("https://user-images.githubusercontent.com/115472816/202016194-4050db9c-3f58-4d2e-b77e-088dd55c0781.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    border-radius: 100px;
+    border-radius: 50px;
     border: solid 10px;
     border-color: #64731E
 }
@@ -42,14 +42,14 @@ a:link, a:visited{
 #fab_racao{
     background-color: transparent;
     border: none;
-    margin-left: 630px;
+    margin-left: 590px;
 }
 
 #entrada_IF{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 531px;
+    margin-left: 477px;
     display: inline-block;
 }
 
@@ -57,7 +57,8 @@ a:link, a:visited{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 530px;
+    margin-left: 500px;
+    margin-top: 17px;
     float: left;
 }
 
@@ -65,7 +66,7 @@ a:link, a:visited{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 0px;
+    margin: 0px;
     display: inline-block;
 }
 
@@ -73,21 +74,21 @@ a:link, a:visited{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 200px;
+    margin-left: 150px;
 }
 
 #ponto5{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 1230px;
+    margin-left: 1170px;
 }
 
 #ponto1{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 170px;
+    margin-left: 130px;
 }
 
 
@@ -95,7 +96,7 @@ a:link, a:visited{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 830px;
+    margin-left: 700px;
     display: inline-block;
 }
 
@@ -103,13 +104,54 @@ a:link, a:visited{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 440px;
-    margin-bottom: 24px;
+    margin-left: 420px;
 }
 
 #ponto2{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 27px;
+    margin-left: 47px;
+}
+
+#creditos{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 800px;
+    height: 600px;
+    padding: 15px;
+    border: solid 1px royalblue;
+    background: #b0c6ca;
+    display: none;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#062746;
+}
+
+#divisao{
+    height:5px;
+    border:0;
+    background:repeating-linear-gradient(90deg,rgb(13, 25, 77),rgb(125, 158, 189) 7%,rgb(59, 72, 133) 10%);
+}
+
+#titulo{
+    border: dashed;
+}
+
+#img_fab{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 800px;
+    height: 600px;
+    padding: 15px;
+    border: solid 1px royalblue;
+    display: none;
 }
