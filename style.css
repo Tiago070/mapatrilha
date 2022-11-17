@@ -12,6 +12,8 @@ body{
 #aaae{
     text-align: center;
     font-size: 2.8em;
+    display: inline-block;
+    margin-right: 200px;
 }
 
 figcaption{
@@ -38,6 +40,8 @@ a:link, a:visited{
     text-decoration: none;
     color: rgb(0, 0, 0);
 } 
+
+
 
 #fab_racao{
     background-color: transparent;
@@ -114,22 +118,59 @@ a:link, a:visited{
     margin-left: 47px;
 }
 
+
+
 #creditos{
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    margin: auto;
     width: 800px;
     height: 600px;
     padding: 15px;
     border: solid 1px royalblue;
-background: #95B634;    display: none;
+    background: #95B634;    
+    display: none;
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color:#062746;
 }
+
+[id ^= button] {
+    background-color: #259233; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 9px rgb(23, 98, 33);
+}
+  
+[id ^= button] {
+    background-color: rgb(166, 229, 127); 
+    color: black; 
+    border: 2px solid #259233;
+}
+  
+[id ^= button]:hover {
+    background-color: #259233;
+    color: white;
+}
+
+[id ^= button]:active {
+    background-color: #259233;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
 
 #divisao{
     height:5px;
@@ -140,6 +181,8 @@ background: #95B634;    display: none;
 #titulo{
     border: dashed;
 }
+
+
 
 #img_fab{
     position: fixed;
@@ -291,9 +334,7 @@ background: #95B634;    display: none;
     display: none;
 }
 
-#img{
-    float: left;
-}
+
 
 #fecha_fab{
     background-color: transparent;
@@ -305,6 +346,52 @@ background: #95B634;    display: none;
     background-color: transparent;
     border: none;
     margin-left: 870px;
-    margin-bottom: 300px;
-    display: inline-block;
+}
+
+#fecha_CE{
+    background-color: transparent;
+    border: none;
+    margin-left: 270px;
+}
+
+#fecha_equo{
+    background-color: transparent;
+    border: none;
+    margin-left: 270px;
+}
+
+#fecha_agroind{
+    background-color: transparent;
+    border: none;
+    margin-left: 270px;
+}
+
+#fecha_p5{
+    background-color: transparent;
+    border: none;
+    margin-left: 270px;
+}
+
+#fecha_p4{
+    background-color: transparent;
+    border: none;
+    margin-left: 270px;
+}
+
+#fecha_p3{
+    background-color: transparent;
+    border: none;
+    margin-left: 270px;
+}
+
+#fecha_p2{
+    background-color: transparent;
+    border: none;
+    margin-left: 270px;
+}
+
+#fecha_p1{
+    background-color: transparent;
+    border: none;
+    margin-left: 270px;
 }
