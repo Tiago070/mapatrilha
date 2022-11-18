@@ -391,59 +391,55 @@ a:link, a:visited{
 #fecha_fab{
     background-color: transparent;
     border: none;
-    margin-top: 70px;
 }
 
 #fecha_IF{
     background-color: transparent;
     border: none;
-    margin-top: 70px;
 }
 
 #fecha_CE{
     background-color: transparent;
     border: none;
-    margin-top: 70px;
 }
 
 #fecha_equo{
     background-color: transparent;
     border: none;
-    margin-top: 70px;
 }
 
 #fecha_agroind{
     background-color: transparent;
     border: none;
-    margin-top: 70px;
 }
 
 #fecha_p5{
     background-color: transparent;
     border: none;
-    margin-top: 70px;
 }
 
 #fecha_p4{
     background-color: transparent;
     border: none;
-    margin-top: 70px;
 }
 
 #fecha_p3{
     background-color: transparent;
     border: none;
-    margin-top: 70px;
 }
 
 #fecha_p2{
     background-color: transparent;
     border: none;
-    margin-top: 70px;
 }
 
 #fecha_p1{
     background-color: transparent;
     border: none;
-    margin-top: 70px;
 }
+
+#msg{
+    padding: 0;
+    margin-bottom: 4px;
+}
+
