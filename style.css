@@ -12,6 +12,7 @@ body{
 #aaae{
     text-align: center;
     font-size: 2.8em;
+    display: inline-block;
 }
 
 figcaption{
@@ -151,7 +152,7 @@ a:link, a:visited{
 
 
 [id ^= button] {
-    background-color: #95B634; /* Green */
+    background-color: #b7d55e; /* Green */
     border: none;
     border-radius: 10px;
     color: white;
@@ -167,13 +168,13 @@ a:link, a:visited{
 }
   
 [id ^= button] {
-    background-color: #95B634; 
+    background-color: #b7d55e; 
     color: black; 
     border: 2px solid #3e7012;
 }
   
 [id ^= button]:hover {
-    background-color: #95B634;
+    background-color: #b7d55e;
     color: white;
 }
 
@@ -195,179 +196,17 @@ a:link, a:visited{
     margin-top: 45px;
 }
 
-
-#img_fab{
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 1300px;
-    height: 630px;
-    padding: 15px;
-    border: solid 3px #3e7012;
-    border-radius: 25px;
-    background: #95B634;    
-    display: none;
-    text-align: center;
-    font-family:'BaVfont';
-    color:#2b3308;
+#button_infos{
+    margin-left: 17px;
+    padding: 16px 15px;
 }
 
-#img_IF{
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 1300px;
-    height: 630px;
-    padding: 15px;
-    border: solid 3px #3e7012;
-    border-radius: 25px;
-    background: #95B634;    
-    display: none;
-    text-align: center;
-    font-family:'BaVfont';
-    color:#2b3308;
+#button_creditos{
+    margin-right: 17px;
 }
 
-#img_CE{
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 1300px;
-    height: 630px;
-    padding: 15px;
-    border: solid 3px #3e7012;
-    border-radius: 25px;
-    background: #95B634;    
-    display: none;
-    text-align: center;
-    font-family:'BaVfont';
-    color:#2b3308;
-}
 
-#img_equo{
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 1300px;
-    height: 630px;
-    padding: 15px;
-    border: solid 3px #3e7012;
-    border-radius: 25px;
-    background: #95B634;    
-    display: none;
-    text-align: center;
-    font-family:'BaVfont';
-    color:#2b3308;
-}
-
-#img_agroind{
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 1300px;
-    height: 630px;
-    padding: 15px;
-    border: solid 3px #3e7012;
-    border-radius: 25px;
-    background: #95B634;    
-    display: none;
-    text-align: center;
-    font-family:'BaVfont';
-    color:#2b3308;
-}
-
-#img_p5{
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 1300px;
-    height: 630px;
-    padding: 15px;
-    border: solid 3px #3e7012;
-    border-radius: 25px;
-    background: #95B634;    
-    display: none;
-    text-align: center;
-    font-family:'BaVfont';
-    color:#2b3308;
-}
-
-#img_p4{
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 1300px;
-    height: 630px;
-    padding: 15px;
-    border: solid 3px #3e7012;
-    border-radius: 25px;
-    background: #95B634;    
-    display: none;
-    text-align: center;
-    font-family:'BaVfont';
-    color:#2b3308;
-}
-
-#img_p3{
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 1300px;
-    height: 630px;
-    padding: 15px;
-    border: solid 3px #3e7012;
-    border-radius: 25px;
-    background: #95B634;    
-    display: none;
-    text-align: center;
-    font-family:'BaVfont';
-    color:#2b3308;
-}
-
-#img_p2{
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 1300px;
-    height: 630px;
-    padding: 15px;
-    border: solid 3px #3e7012;
-    border-radius: 25px;
-    background: #95B634;    
-    display: none;
-    text-align: center;
-    font-family:'BaVfont';
-    color:#2b3308;
-}
-
-#img_p1{
+[id ^= img]{
     position: fixed;
     top: 0;
     bottom: 0;
@@ -387,53 +226,7 @@ a:link, a:visited{
 }
 
 
-
-#fecha_fab{
-    background-color: transparent;
-    border: none;
-}
-
-#fecha_IF{
-    background-color: transparent;
-    border: none;
-}
-
-#fecha_CE{
-    background-color: transparent;
-    border: none;
-}
-
-#fecha_equo{
-    background-color: transparent;
-    border: none;
-}
-
-#fecha_agroind{
-    background-color: transparent;
-    border: none;
-}
-
-#fecha_p5{
-    background-color: transparent;
-    border: none;
-}
-
-#fecha_p4{
-    background-color: transparent;
-    border: none;
-}
-
-#fecha_p3{
-    background-color: transparent;
-    border: none;
-}
-
-#fecha_p2{
-    background-color: transparent;
-    border: none;
-}
-
-#fecha_p1{
+[id ^= fecha]{
     background-color: transparent;
     border: none;
 }
@@ -449,4 +242,14 @@ a:link, a:visited{
 
 #cred{
     padding: 15px;
+}
+
+#rodape{
+    background-color: #00420C;
+    padding: 5px 5px 5px 5px;
+    color: white;
+}
+
+#siteif{
+    color:rgb(197, 228, 255);
 }
