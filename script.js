@@ -89,3 +89,10 @@ function abrirp3(){
 function fecharp3(){
     document.getElementById("img_p3").style.display = "none";
 }
+
+function abririnfos(){
+    document.getElementById("img_infos").style.display = "block";
+}
+function fecharinfos(){
+    document.getElementById("img_infos").style.display = "none";
+}
