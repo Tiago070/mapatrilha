@@ -3,27 +3,25 @@
     <head>
 	    <meta charset="utf-8">
 	    <title>Trilha IF Goiano</title>
-	    <link rel="stylesheet" href="style.css">
-	    <script src="script.js"></script>
+	    <link rel="stylesheet" href="2_style_trilha.css">
+	    <script src="2_script_trilha.js"></script>
     </head>
 	<body>
-		<h1 id="aaae">Mapa Virtual: Trilha Ecológica | IF Goiano - Campus Ceres</h1>
+        <h1 id="tituloo">Mapa Virtual: Trilha Ecológica | IF Goiano - Campus Ceres</h1>
         <center>
-            <button id="button_creditos"><a id="cred" href="#" onclick="abrircred()">Créditos</a></button> ⚫
-            <button id="button_infos"><a id="infos" href="#" onclick="abririnfos()">Informações Gerais</a></button>
+            <button id="button_creditos"><a id="link_cred" href="#" onclick="abrircred()">⠀⠀⠀⠀Sobre⠀⠀⠀⠀</a></button> ┃
+            <button id="button_infos"><a id="infos" href="#" onclick="abririnfos()">⠀Informações Gerais⠀</a></button>
         </center><br>
         
         <div id="img_infos">
             <h2>Informações Gerais</h2>
-            <p id="txt">◐Tamanho da trilha: 1,60 km</p>
-            <p id="txt">◐Tempo para percorrê-la caminhando sem parar: 20 minutos</p>
-            <p id="txt">◐A trilha tem seu início no Centro Agroecológico, adentra a vegetação, passa por um córrego e segue até o Rio Verde passando por um bambuzal e terminando no viveiro do campus.</p>
-            <p id="txt">◐No Centro Agroecológico também é a entrada da trilha Curumim que é uma trilha menor do campus.</p>
-            <center><button id="fecha_fab">
-                <a href="#" onclick="fecharinfos()">
-                    <img src="https://user-images.githubusercontent.com/115472816/202593516-28b1872a-b978-4ca5-aa3c-d4572ce0619a.png" width="60" height="60">
-                </a>
-            </button></center>
+            <p id="txt">| Extensão da trilha: 1,60km (1.600m)</p>
+            <p id="txt">| Tempo para percorrê-la caminhando sem parar: 20 minutos</p>
+            <p id="txt">| A trilha tem seu início no Centro Agroecológico, adentra a vegetação, passa por um córrego e segue até o Rio Verde passando por um bambuzal e terminando no viveiro do campus.</p>
+            <p id="txt">| No Centro Agroecológico também é a entrada da trilha Curumim que é uma trilha menor do campus.</p>
+            <center>
+                <button id="fecha_infos"><a href="#" onclick="fecharinfos()">OK</a></button>
+            </center>
         </div>
 
         <div id="mapa">
@@ -267,35 +265,43 @@
 
         <div id="creditos">
             <h1 id="titulo">CRÉDITOS</h1>
-            <hr id="divisao">
-            <h3>Quem são os Poggers?</h3>
-            <p>Somos estudantes da 2ª série do curso Técnico em Informática para Internet Integrado ao Ensino Médio<br>
-            cuja nossa finalidade se dá pela criação de um mapa virtual da trilha ecológica do IF Goiano - Campus Ceres.</p>
+            <h2>Quem somos?</h2>
+            <p id="sobre1">Somos estudantes da 2ª série do curso Técnico em Informática para Internet Integrado ao Ensino Médio.
+            Esse site foi criado a partir de uma ideia provinda de uma aula de Desenvolvimento Web - disciplina
+            em que nos é ensinado a como criar sites web utilizando principalmente as linguagens de programação
+            HTML, CSS E JAVASCRIPT.</p>
+            
+            <p id="sobre2">A ideia se consistia na criação de um mapa virtual acerca de uma das trilhas do nosso Campus, com intuito 
+            de levar conhecimento e estimular que estudantes internos e externos a conheçam, bem como caminhem através
+            desse percurso, de modo a apreciar a beleza natural dela, usufruir de um ar puro e até mesmo encontrar 
+            espécies nativas.</p>
+            
 
-            <h3>Colaboradores:</h3>
-            <p>Tiago Cardoso Ferreira<a href="https://instagram.com/tiago.cardoso07?igshid=NmQ2ZmYxZjA="><img id="insta" src="https://user-images.githubusercontent.com/115472816/202816814-3cdb1e0f-33a7-4ef9-ac66-3741b1453144.png" width="18" height="18"></a>
+            <h2>Conheça a gente:</h2>
+            <p id="colaboradores">Tiago Cardoso Ferreira<a href="https://instagram.com/tiago.cardoso07?igshid=NmQ2ZmYxZjA="><img id="insta" src="https://user-images.githubusercontent.com/115472816/202816814-3cdb1e0f-33a7-4ef9-ac66-3741b1453144.png" width="18" height="18"></a>
                 <a href="mailto:tiagocardoso1357@gmail.com"><img src="https://user-images.githubusercontent.com/115472816/202816800-ea298d6d-7e3b-49fe-9bb4-4b6f3a54025e.png" width="30" height="18"></a><br/>
                 Gabriel Alves de Souza<a href="https://instagram.com/byell.alves?igshid=NTdlMDg3MTY="><img id="insta" src="https://user-images.githubusercontent.com/115472816/202816814-3cdb1e0f-33a7-4ef9-ac66-3741b1453144.png" width="18" height="18"></a>
                 <a href="mailto:gabrielalves22092005@gmail.com"><img src="https://user-images.githubusercontent.com/115472816/202816800-ea298d6d-7e3b-49fe-9bb4-4b6f3a54025e.png" width="30" height="18"></a><br/>
                 Arthur Antunes Longo<br/>
                 Werik Augusto de Sousa Barbosa<br/>
-                Gabriel Antunes Ribeiro<br/>
+                Gabriel Antunes Ribeiro<br>
                 Luíz Eduardo Veloso Toquio<br/>
-                André Florêncio Silva<br/>
+            </p>
+            <p id="aleatorio">André Florêncio Silva<br/>
                 Grazielly Kathleen Oliveira Souza<br/>
                 Alvaro Lacerda Tristão<br/>
                 Bruno Alexandre do Nascimento Costa<br/>
                 Ana Clara Souza Santos<br/>
-            </p>
-            <hr id="divisao">
+                ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br>
+            </p><br>
             <button id="fecha_creditos"><a href="#" onclick="fecharcred()">OK</a></button>
         </div><br>
 
         <address id="rodape">
-            Instituto Federal Goiano - Campus Ceres<br>
-            Endereço: Caixa Postal 51, Rodovia GO 154, Km 03, s/n, Zona Rural – Ceres – GO, 76.300-000<br>
-            Telefone: 62 3307-7100<br>
-            Site Institucional: <a id="siteif" href="https://www.ifgoiano.edu.br/home/index.php/ceres.html">https://www.ifgoiano.edu.br/home/index.php/ceres.html</a>
+            ⠀Instituto Federal Goiano - Campus Ceres<br>
+            ⠀Endereço: Caixa Postal 51, Rodovia GO 154, Km 03, s/n, Zona Rural – Ceres – GO, 76.300-000<br>
+            ⠀Telefone: (62) 3307-7100<br>
+            ⠀Site Institucional: <a id="siteif" href="https://www.ifgoiano.edu.br/home/index.php/ceres.html">https://www.ifgoiano.edu.br/home/index.php/ceres.html</a>
         </address>
     </body>
 </html>
