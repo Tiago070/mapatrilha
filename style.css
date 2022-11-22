@@ -12,7 +12,6 @@ body{
 #aaae{
     text-align: center;
     font-size: 2.8em;
-    display: inline-block;
 }
 
 figcaption{
@@ -32,7 +31,7 @@ figcaption{
     background-size: 100%;
     border-radius: 50px;
     border: solid 10px;
-    border-color: #64731E
+    border-color: #64731E;
 }
 
 a:link, a:visited{
@@ -197,12 +196,7 @@ a:link, a:visited{
 }
 
 #button_infos{
-    margin-left: 17px;
     padding: 16px 15px;
-}
-
-#button_creditos{
-    margin-right: 17px;
 }
 
 
@@ -231,9 +225,23 @@ a:link, a:visited{
     border: none;
 }
 
+#fecha_CE{
+    margin-top: -7px;
+}
+
+
+
 #msg{
-    padding: 0;
-    margin-bottom: 4px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 3px;
+    font-size: 1.2em;
+}
+
+#name{
+    font-size: 1.4em;
+    margin: 5px;
+    padding: 0px;
 }
 
 #insta{
@@ -244,12 +252,35 @@ a:link, a:visited{
     padding: 15px;
 }
 
+
+
 #rodape{
-    background-color: #00420C;
     padding: 5px 5px 5px 5px;
-    color: white;
 }
 
 #siteif{
-    color:rgb(197, 228, 255);
+    color:rgb(27, 120, 202);
+}
+
+#txt{
+    font-size: 1.4em;
+}
+
+#img_infos{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 800px;
+    height: 400px;
+    padding: 15px;
+    border: solid 3px #3e7012;
+    border-radius: 25px;
+    background: #95B634;    
+    display: none;
+    text-align: left;
+    font-family:'BaVfont';
+    color:#2b3308;
 }
