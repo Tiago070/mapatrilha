@@ -7,18 +7,33 @@
 	    <script src="script.js"></script>
     </head>
 	<body>
-		<button id="button_creditos"><a id="cred" href="#" onclick="abrircred()">Créditos</a></button>
 		<h1 id="aaae">Mapa Virtual: Trilha Ecológica | IF Goiano - Campus Ceres</h1>
-		<button id="button_infos"><a id="infos" href="#" onclick="abririnfos()">Informações Gerais</a></button>
+        <center>
+            <button id="button_creditos"><a id="cred" href="#" onclick="abrircred()">Créditos</a></button> ⚫
+            <button id="button_infos"><a id="infos" href="#" onclick="abririnfos()">Informações Gerais</a></button>
+        </center><br>
+        
+        <div id="img_infos">
+            <h2>Informações Gerais</h2>
+            <p id="txt">◐Tamanho da trilha: 1,60 km</p>
+            <p id="txt">◐Tempo para percorrê-la caminhando sem parar: 20 minutos</p>
+            <p id="txt">◐A trilha tem seu início no Centro Agroecológico, adentra a vegetação, passa por um córrego e segue até o Rio Verde passando por um bambuzal e terminando no viveiro do campus.</p>
+            <p id="txt">◐No Centro Agroecológico também é a entrada da trilha Curumim que é uma trilha menor do campus.</p>
+            <center><button id="fecha_fab">
+                <a href="#" onclick="fecharinfos()">
+                    <img src="https://user-images.githubusercontent.com/115472816/202593516-28b1872a-b978-4ca5-aa3c-d4572ce0619a.png" width="60" height="60">
+                </a>
+            </button></center>
+        </div>
 
         <div id="mapa">
             <div id="fab_IF">
                 <div id="img_fab">
-                    <h3>Fábrica de Ração</h3>
+                    <p id="name">Fábrica de Ração</p>
                     <p id="msg">Utilizado nas aulas práticas dos cursos da área de Ciências Agrárias, e na produção de ração para os animais criados no campus.</p>
-                    <img id="img" src="https://user-images.githubusercontent.com/115472816/202005789-cff7f798-286b-4bfb-88de-5ce96f50edd6.jpg" width="500px" height="250px">
-                    <img id="img" src="https://user-images.githubusercontent.com/115472816/202005037-bec67210-ba1b-4df0-9b06-9b051b3569f8.jpg" width="500px" height="250px">
-                    <img id="img" src="https://user-images.githubusercontent.com/115472816/202005820-61340a50-7bf2-433c-9145-5e7692e68619.jpg" width="500px" height="250px"><br>
+                    <img src="https://user-images.githubusercontent.com/115472816/202005789-cff7f798-286b-4bfb-88de-5ce96f50edd6.jpg" width="500px" height="250px">
+                    <img src="https://user-images.githubusercontent.com/115472816/202005037-bec67210-ba1b-4df0-9b06-9b051b3569f8.jpg" width="500px" height="250px">
+                    <img src="https://user-images.githubusercontent.com/115472816/202005820-61340a50-7bf2-433c-9145-5e7692e68619.jpg" width="500px" height="250px"><br>
                     <button id="fecha_fab">
                         <a href="#" onclick="fecharimg()">
                             <img src="https://user-images.githubusercontent.com/115472816/202593516-28b1872a-b978-4ca5-aa3c-d4572ce0619a.png" width="60" height="60">
@@ -35,7 +50,7 @@
 				</button>
 
                 <div id="img_IF">
-                    <h3>Entrada do IF Goiano - Campus Ceres</h3>
+                    <p id="name">Entrada do IF Goiano - Campus Ceres</p>
                     <p id="msg">Entrada no bloco A para as demais estruturas do campus.</p>
                     <img src="https://user-images.githubusercontent.com/115472816/202762391-bacf5e7d-ed2b-43d8-b60b-44cdd75c5d38.jpg" width="500px" height="250px">
                     <img src="https://user-images.githubusercontent.com/115472816/202762367-8de36be7-c784-4d11-8a08-d3dbda9b5d23.jpg" width="500px" height="250px">
@@ -57,11 +72,13 @@
 			</div>
             <div id="centro_equo">
                 <div id="img_CE">
-                    <h3>Centro Agroecológico</h3>
-                    <p id="msg">Feito totalmente com materias naturais para lembrar os seus vizitantes da possibilidade de se conviver de forma harmoniosa com o meio ambiente.</p>
+                    <p id="name"><strong>Centro Agroecológico</strong></p>
+                    <p id="msg">Feito totalmente com materias naturais para lembrar os seus visitantes da possibilidade de se conviver de forma harmoniosa com o meio ambiente.</p>
+                    <p id="msg">Aqui também temos a entrada para a trilha ecológica e a trilha Curumim.</p>
                     <img src="https://user-images.githubusercontent.com/115472816/202006061-ba115ef0-5cfd-410a-9519-986460a0c523.jpg" width="500px" height="250px">
-                    <img src="https://user-images.githubusercontent.com/115472816/202006537-43356d39-3c0f-401c-bac0-1f4efebfb340.jpg" width="470px" height="250px">
-                    <img src="https://user-images.githubusercontent.com/115472816/202006272-51bf8ec1-a61e-437a-b09d-134ebb1ef7da.jpg" width="500px" height="250px"><br>
+                    <img src="https://user-images.githubusercontent.com/115472816/202006537-43356d39-3c0f-401c-bac0-1f4efebfb340.jpg" width="500px" height="250px">
+                    <img src="https://user-images.githubusercontent.com/115472816/202006272-51bf8ec1-a61e-437a-b09d-134ebb1ef7da.jpg" width="500px" height="250px">
+                    <img src="https://user-images.githubusercontent.com/115472816/203190880-0786ee4f-b12f-43e1-9a67-5d159e617ef0.jpg" width="500px" height="250px"><br>
                     <button id="fecha_CE">
                         <a href="#" onclick="fecharCE()">
                             <img src="https://user-images.githubusercontent.com/115472816/202593516-28b1872a-b978-4ca5-aa3c-d4572ce0619a.png" width="60" height="60">
@@ -79,8 +96,8 @@
 
 
                 <div id="img_equo">
-                    <h3>Equoterapia</h3>
-                    <p id="msg">Em parceria com a Prefeitura Municipal de Ceres, atende a crianças e jovens portadores de necessidades especiais, trabalhando em prol de sua reabilitação e inserção social.</p>
+                    <p id="name"><strong>Equoterapia</strong></p>
+                    <p id="msg">Atende a crianças e jovens portadores de necessidades especiais, trabalhando em prol de sua reabilitação e inserção social.</p>
                     <img src="https://user-images.githubusercontent.com/115472816/202004633-e084f89a-640d-4d75-b785-202eb59e3350.jpg" width="500px" height="250px">
                     <img src="https://user-images.githubusercontent.com/115472816/202004809-a3d0fbdd-7977-4f89-8b57-59126bace4a2.jpg" width="500px" height="250px">
                     <img src="https://user-images.githubusercontent.com/115472816/202777673-fbee1ffd-75fb-4582-bef7-6700ff6298e4.jpg" width="500px" height="250px"><br>
@@ -101,7 +118,7 @@
 
 
                 <div id="img_agroind">
-                    <h3>Agroindústria</h3>
+                    <p id="name"><strong>Agroindústria</strong></p>
                     <p id="msg">Utilizado no preparo de carne para consumo no refeitório do campus.</p>
                     <img src="https://user-images.githubusercontent.com/115472816/202762509-7c845a8c-95ef-48ac-b40f-1b64ece923ea.jpg" width="500px" height="250px">
                     <img src="https://user-images.githubusercontent.com/115472816/202762642-e61db82d-1f9b-4a14-ad0e-72d5d376328e.jpg" width="500px" height="250px">
@@ -125,7 +142,7 @@
 
             <div id="trilha5">
                 <div id="img_p5">
-                    <h3>Final da trilha</h3>
+                    <p id="name"><strong>Final da trilha</strong></p>
                     <p id="msg">A trilha termina ao passar sobre uma ponte e pelo viveiro do campus.</p>
                     <img src="https://user-images.githubusercontent.com/115472816/202010350-2d925e3f-1ac8-4555-b0c3-c1244d685d1d.jpg" width="500x" height="250px">
                     <img src="https://user-images.githubusercontent.com/115472816/202010464-864381ae-b50f-4971-a502-a2752b0d0262.jpg" width="500px" height="250px">
@@ -150,7 +167,7 @@
 
             <div id="ponto1">
                 <div id="img_p1">
-                    <h3>Início da Trilha</h3>
+                    <p id="name"><strong>Início da Trilha</strong></p>
                     <p id="msg">Logo no início da trilha já é possível sentir o ambiente calmo e ouvir o cantar dos pássaros.</p>
                     <img src="https://user-images.githubusercontent.com/115472816/202006647-2bd1fe29-a729-4251-a38c-707cdab5cd75.jpg" width="500px" height="250px">
                     <img src="https://user-images.githubusercontent.com/115472816/202006910-189cd871-ccce-4356-a43e-189f5559ae29.jpg" width="500px" height="250px">
@@ -175,7 +192,7 @@
 
             <div id="trilha2_4">
                 <div id="img_p2">
-                    <h3>Ponto 2</h3>
+                    <p id="name"><strong>Ponto 2</strong></p>
                     <p id="msg">Aqui a mata é um pouco mais fechada e podemos observar um córrego que segue até o Rio Verde.</p>
                     <img src="https://user-images.githubusercontent.com/115472816/202008092-5fa480fe-81e2-4591-a1f0-d4ad32842608.jpg" width="500px" height="250px">
                     <img src="https://user-images.githubusercontent.com/115472816/202008662-7cb01212-24b7-47af-80a4-41afa13ba20a.jpg" width="500px" height="250px">
@@ -198,7 +215,7 @@
 
 
                 <div id="img_p4">
-                    <h3>Bambuzal</h3>
+                    <p id="name"><strong>Bambuzal</strong></p>
                     <p id="msg">Aqui temos uma combinação entre o bambuzal e o Rio Verde que proporciona uma linda vista.</p>
                     <img src="https://user-images.githubusercontent.com/115472816/202009987-4dc92582-585a-4e66-a010-1aad3d52978a.jpg" width="500px" height="250px">
                     <img src="https://user-images.githubusercontent.com/115472816/202010234-e463ab30-1c8a-477e-bf5d-c3d311abd6e9.jpg" width="500px" height="250px">
@@ -225,8 +242,8 @@
             <p>⠀</p>
             <div id="trilha3">
                 <div id="img_p3">
-                    <h3>Ponto 3</h3>
-                    <p id="msg">Neste ponto podemos parar e observar o ambiente e se você estiver com sorte pode ver algumas espécies nativas, como o Quati, que são inofencivas e deixam o ambiente ainda mais agradável.</p>
+                    <p id="name"><strong>Ponto 3</strong></p>
+                    <p id="msg">Neste ponto podemos parar e observar a vegetação, os animais e visualizar o Rio Verde.</p>
                     <img src="https://user-images.githubusercontent.com/115472816/202009700-4142ff3e-f649-4df7-a56b-cb7c8fb7b77d.jpg" width="500px" height="250px">
                     <img src="https://user-images.githubusercontent.com/115472816/202009722-b9dfb2a9-c260-499a-bad5-ac8194e8b968.jpg" width="500px" height="250px">
                     <img src="https://user-images.githubusercontent.com/115472816/202009769-2fb07068-3b5f-4fc7-89e3-23ce13200aba.jpg" width="500px" height="250px">
@@ -272,7 +289,7 @@
             </p>
             <hr id="divisao">
             <button id="fecha_creditos"><a href="#" onclick="fecharcred()">OK</a></button>
-        </div>
+        </div><br>
 
         <address id="rodape">
             Instituto Federal Goiano - Campus Ceres<br>
