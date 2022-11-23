@@ -304,3 +304,7 @@ a:link, a:visited{
     font-family:'BaVfont';
     color:#2b3308;
 }
+
+#foto{
+    border-radius: 10px;
+}
