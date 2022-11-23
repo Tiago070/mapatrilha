@@ -44,14 +44,14 @@ a:link, a:visited{
 #fab_racao{
     background-color: transparent;
     border: none;
-    margin-left: 590px;
+    margin-left: 595px;
 }
 
 #entrada_IF{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 459px;
+    margin-left: 476px;
     display: inline-block;
 }
 
@@ -59,8 +59,8 @@ a:link, a:visited{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 500px;
-    margin-top: 17px;
+    margin-left: 510px;
+    margin-top: 30px;
     float: left;
 }
 
@@ -68,7 +68,7 @@ a:link, a:visited{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin: -80px;
+    margin: -90px;
     display: inline-block;
 }
 
@@ -76,21 +76,21 @@ a:link, a:visited{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 280px;
+    margin-left: 300px;
 }
 
 #ponto5{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 1127px;
+    margin-left: 1137px;
 }
 
 #ponto1{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 100px;
+    margin-left: 75px;
 }
 
 
@@ -98,7 +98,7 @@ a:link, a:visited{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 780px;
+    margin-left: 692px;
     display: inline-block;
 }
 
@@ -106,15 +106,15 @@ a:link, a:visited{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 368px;
-    margin-bottom: 17px;
+    margin-left: 400px;
+    margin-top: 41px;
 }
 
 #ponto2{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 33px;
+    margin-left: 75px;
 }
 
 
@@ -245,7 +245,7 @@ a:link, a:visited{
 }
 
 #fecha_CE{
-    margin-top: -7px;
+    margin-top: -3px;
 }
 
 
