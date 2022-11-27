@@ -127,7 +127,7 @@ a:link, a:visited{
     right: 0;
     margin: auto;
     width: 800px;
-    height: 630px;
+    height: 530px;
     padding: 15px;
     border: dashed 3px #3e7012;
     border-radius: 25px;
@@ -138,27 +138,23 @@ a:link, a:visited{
     color:#2b3308;
 }
 
-#colaboradores{
-
+#colaborador1{
     font-size: 20px;
     display: inline-block;
+    text-align: center;
     margin-right: 100px;
 }
 
-#aleatorio{
+#colaborador2{
     font-size: 20px;
     display: inline-block;
+    text-align: center;
 }
 
-#sobre1 {
+[id ^= sobre]{
     font-size: 1.3em;
-
 }
 
-#sobre2 {
-    font-size: 1.3em;
-
-}
 
 
 [id ^= button] {
