@@ -15,4 +15,4 @@ Metas:
   
   Criar quizzes com a temática de preservação do meio ambiente e sobre a história da trilha.
   
-Link do site: https://tiago070.github.io/trilha2022/
+Link do site: https://tiago070.github.io/mapatrilha/
