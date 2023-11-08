@@ -3,23 +3,44 @@
     <head>
 	    <meta charset="utf-8">
 	    <title>Trilha IF Goiano</title>
-	    <link rel="icon" href="https://user-images.githubusercontent.com/115472816/204097217-97f4bc2b-d5b3-437c-b640-fdc3d79ced59.png">
-	    <link rel="stylesheet" href="style.css">
-	    <script src="script.js"></script>
+        <link rel="icon" href="https://user-images.githubusercontent.com/115472816/204097217-97f4bc2b-d5b3-437c-b640-fdc3d79ced59.png">
+	    <link rel="stylesheet" href="1_style_trilha.css">
+	    <script src="1_script_trilha.js"></script>
     </head>
 	<body>
         <h1 id="tituloo">Mapa Interativo: Trilha Ecológica | IF Goiano - Campus Ceres</h1>
         <center>
-            <button id="button_creditos"><a id="link_cred" href="#" onclick="abrircred()">⠀⠀⠀⠀Sobre⠀⠀⠀⠀</a></button> ┃
-            <button id="button_infos"><a id="infos" href="#" onclick="abririnfos()">⠀Informações Gerais⠀</a></button>
+            <button id="button_infos"><a id="infos" href="#" onclick="abririnfos()">⠀Informações Gerais⠀</a></button> ┃
+            <a href="download_pdf.php" target="_blank"><button id="button_cadastro">⠀Mapa Offline⠀</button></a> ┃
+            <button id="button_galeria"><a id="galeria" href="6_galeria.html">⠀Galeria de fotos⠀</a></button>
         </center><br>
         
         <div id="img_infos">
             <h2>Informações Gerais da Trilha Ecológica</h2>
-            <p id="txt">| Extensão: 1,60km (1.600m)</p>
-            <p id="txt">| Tempo médio para percorrê-la: 20-30 minutos</p>
-            <p id="txt">| Resumidamente, o percurso da trilha se consiste em iniciar no Centro Agroecológico, adentrar à vegetação, passar por um córrego, seguindo o caminho até o Rio Verde e chegar ao bambuzal, terminando assim, no viveiro do Campus.</p>
-            <p id="txt">| No Centro Agroecológico também há a entrada de uma outra trilha: A trilha Curumim, que se trata de uma trilha menor da Instituição.</p>
+            <p id="txt">| Extensão: 1,60km (1.600m) <br>
+                | Tempo médio para percorrê-la: 20-30 minutos <br>
+                | Resumidamente, o percurso da trilha se consiste em iniciar no Centro Agroecológico, adentrar à vegetação, 
+                passar por um córrego, seguindo o caminho até o Rio Verde e chegar ao bambuzal, terminando assim, no Viveiro do Campus, 
+                ou seguindo, dando a volta pelo Viveiro e passando próximo ao Mirante finalizando o percusso atrás do Alojamento Masculino</p>
+            <h2>Quem somos?</h2>
+            <p id="sobre1">Somos discentes do curso Técnico em Informática para Internet Integrado ao Ensino Médio.
+            Esse site foi criado a partir de uma ideia provinda de uma aula de Desenvolvimento Web. 
+            O projeto sofreu melhorias com os conhecimentos adquiridos nas disciplinas de Técnicas Avançadas de Desenvolvimento Web e Desenvolvimento de Projetos e Sistemas. <br>
+            A ideia se consistia na criação de um mapa interativo acerca de uma das trilhas do nosso Campus, com intuito 
+            de levar conhecimento e estimular que estudantes internos e a comunidade externa a conheçam, bem como caminhem através
+            desse percurso, de modo a apreciar suas belezas naturais, usufruir de um ar puro e até mesmo encontrar 
+            espécies nativas.</p>
+            
+            <center>
+                <h2>Contato:</h2>
+            
+                <p id="colaborador1">Tiago Cardoso Ferreira<br/><a href="https://instagram.com/tiago.cardoso07?igshid=NmQ2ZmYxZjA="><img id="insta" src="https://user-images.githubusercontent.com/115472816/203399987-f0496515-abac-4253-879e-85413fd1f777.png" width="20" height="20"></a>
+                    <a href="mailto:tiagocardoso1357@gmail.com"><img src="https://user-images.githubusercontent.com/115472816/203399853-367266e7-9588-4a53-b885-ae4bdca40dfb.png" width="23" height="21"></a>
+                </p>
+                <p id="colaborador2">Gabriel Alves de Souza<br/><a href="https://instagram.com/byell.alves?igshid=YmMyMTA2M2Y="><img id="insta" src="https://user-images.githubusercontent.com/115472816/203399987-f0496515-abac-4253-879e-85413fd1f777.png" width="20" height="20"></a>
+                    <a href="mailto:gabrielalves2209@gmail.com"><img src="https://user-images.githubusercontent.com/115472816/203399853-367266e7-9588-4a53-b885-ae4bdca40dfb.png" width="23" height="21"></a>
+                </p><br>
+
             <center>
                 <button id="fecha_infos"><a href="#" onclick="fecharinfos()">OK</a></button>
             </center>
@@ -50,8 +71,8 @@
 				</button>
 
                 <div id="img_IF">
-                    <p id="name">Entrada - Bloco A</p>
-                    <p id="msg">Entrada do Bloco A, que permite acesso aos demais blocos administrativos, salas de aula e laboratórios</p>
+                    <p id="name">Blocos Administrativos, de Salas de Aula e de Laboratórios</p>
+                    <p id="msg">Blocos de A a E, que permite acesso a alguns locais da instituição como o Núcleo Esportivo, setores administrativos, salas de aula, laboratórios, refeitório, alojamentos e outras estruturas</p>
                     <img id="foto" src="https://user-images.githubusercontent.com/115472816/237465800-d5d9f6d0-51b9-4a77-b9b7-1f542291c4af.jpg" width="500px" height="250px">
                     <img id="foto" src="https://user-images.githubusercontent.com/115472816/237465806-43f3a2cd-7a7f-415e-819a-a96cb2612361.jpg" width="500px" height="250px">
                     <img id="foto" src="https://user-images.githubusercontent.com/115472816/237465799-e8b89c3c-bf61-44a0-bef7-f563f08e9e45.jpg" width="500px" height="250px">
@@ -66,7 +87,7 @@
 					<a href="#">
                         <figure>
                             <img src="https://user-images.githubusercontent.com/115473439/202053296-b6225fd1-2910-4a52-b61e-799b78826f17.png" width="48" height="46">
-                            <figcaption>⠀Bloco A⠀</figcaption>
+                            <figcaption>⠀IF Goiano⠀</figcaption>
                         </figure>
                     </a>
 				</button>
@@ -144,31 +165,12 @@
 
 
             <div id="trilha5">
-                <div id="img_p5">
-                    <p id="name"><strong>Final da trilha</strong></p>
-                    <p id="msg">A trilha tem seu final ao passar sobre uma ponte e se encerra no viveiro do Campus</p>
-                    <img id="foto" src="https://user-images.githubusercontent.com/115472816/237472732-50536a0e-eb60-4759-a1f4-e5566319868e.jpg" width="500x" height="250px">
-                    <img id="foto" src="https://user-images.githubusercontent.com/115472816/237472743-6a8424dd-06c4-4612-8411-438e25273a59.jpg" width="500px" height="250px">
-                    <img id="foto" src="https://user-images.githubusercontent.com/115472816/237472750-c9bcdf70-d12f-4216-83fc-528d38532fdd.jpg" width="500px" height="250px">
-                    <img id="foto" src="https://user-images.githubusercontent.com/115472816/237472809-f37999ef-66cb-4781-a0fc-5f7f24c04024.jpg" width="500px" height="250px"><br>
-                    <button id="fecha_p5">
-                        <a href="#" onclick="fecharp5()">
-                            <img src="https://user-images.githubusercontent.com/115472816/203563912-679dae83-7cd5-445c-89c0-c058e9bc776a.png" width="50" height="50">
-                        </a>
-                    </button>
-                </div>
-				<button id="ponto5" onclick="abrirp5()">
-					<a href="#">
-                        <figure>
-                            <img src="https://user-images.githubusercontent.com/115473439/202053296-b6225fd1-2910-4a52-b61e-799b78826f17.png" width="48" height="46">
-                            <figcaption>⠀Final da trilha⠀</figcaption>
-                        </figure>
-                    </a>
-				</button>
+                
 			</div>
 
 
             <div id="ponto1">
+                
                 <div id="img_p1">
                     <p id="name"><strong>Início da Trilha</strong></p>
                     <p id="msg">Logo no início da trilha já estamos suscetíveis a sentir o ambiente calmo e ouvir o cantar dos pássaros</p>
@@ -190,6 +192,27 @@
                         </figure>
                     </a>
                 </button>
+                <div id="img_p5">
+                    <p id="name"><strong>Final da trilha</strong></p>
+                    <p id="msg">A trilha tem seu final ao passar sobre uma ponte e se encerra no viveiro do Campus</p>
+                    <img id="foto" src="https://user-images.githubusercontent.com/115472816/237472732-50536a0e-eb60-4759-a1f4-e5566319868e.jpg" width="500x" height="250px">
+                    <img id="foto" src="https://user-images.githubusercontent.com/115472816/237472743-6a8424dd-06c4-4612-8411-438e25273a59.jpg" width="500px" height="250px">
+                    <img id="foto" src="https://user-images.githubusercontent.com/115472816/237472750-c9bcdf70-d12f-4216-83fc-528d38532fdd.jpg" width="500px" height="250px">
+                    <img id="foto" src="https://user-images.githubusercontent.com/115472816/237472809-f37999ef-66cb-4781-a0fc-5f7f24c04024.jpg" width="500px" height="250px"><br>
+                    <button id="fecha_p5">
+                        <a href="#" onclick="fecharp5()">
+                            <img src="https://user-images.githubusercontent.com/115472816/203563912-679dae83-7cd5-445c-89c0-c058e9bc776a.png" width="50" height="50">
+                        </a>
+                    </button>
+                </div>
+				<button id="ponto5" onclick="abrirp5()">
+					<a href="#">
+                        <figure>
+                            <img src="https://user-images.githubusercontent.com/115473439/202053296-b6225fd1-2910-4a52-b61e-799b78826f17.png" width="48" height="46">
+                            <figcaption>⠀Final da trilha⠀</figcaption>
+                        </figure>
+                    </a>
+				</button>
             </div>
             <p>⠀</p>
 
@@ -266,34 +289,14 @@
 			</div>
         </div>
 
-        <div id="creditos">
-            <h1 id="titulo">CRÉDITOS</h1>
-            <h2>Quem somos?</h2>
-            <p id="sobre1">Somos estudantes da 2ª série do curso Técnico em Informática para Internet Integrado ao Ensino Médio.
-            Esse site foi criado a partir de uma ideia provinda de uma aula de Desenvolvimento Web - disciplina
-            em que nos é ensinado a como criar sites web utilizando principalmente as linguagens de programação
-            HTML, CSS E JAVASCRIPT.</p>
-            
-            <p id="sobre2">A ideia se consistia na criação de um mapa virtual acerca de uma das trilhas do nosso Campus, com intuito 
-            de levar conhecimento e estimular que estudantes internos e externos a conheçam, bem como caminhem através
-            desse percurso, de modo a apreciar suas belezas naturais, usufruir de um ar puro e até mesmo encontrar 
-            espécies nativas.</p>
-            
-
-            <h2>Conheça a gente:</h2>
-            <p id="colaborador1">Tiago Cardoso Ferreira<br/><a href="https://instagram.com/tiago.cardoso07?igshid=NmQ2ZmYxZjA="><img id="insta" src="https://user-images.githubusercontent.com/115472816/203399987-f0496515-abac-4253-879e-85413fd1f777.png" width="20" height="20"></a>
-                <a href="mailto:tiagocardoso1357@gmail.com"><img src="https://user-images.githubusercontent.com/115472816/203399853-367266e7-9588-4a53-b885-ae4bdca40dfb.png" width="23" height="21"></a>
-            </p>
-
-            <p id="colaborador2">Gabriel Alves de Souza<br/><a href="https://instagram.com/byell.alves?igshid=YmMyMTA2M2Y="><img id="insta" src="https://user-images.githubusercontent.com/115472816/203399987-f0496515-abac-4253-879e-85413fd1f777.png" width="20" height="20"></a>
-                <a href="mailto:gabrielalves2209@gmail.com"><img src="https://user-images.githubusercontent.com/115472816/203399853-367266e7-9588-4a53-b885-ae4bdca40dfb.png" width="23" height="21"></a>
-            </p><br>
-            <button id="fecha_creditos"><a href="#" onclick="fecharcred()">OK</a></button>
-        </div><br>
-
         <address id="rodape">
+            <br>
+            ⠀Desenvolvido por Tiago Cardoso Ferreira
+            <a href="https://instagram.com/tiago.cardoso07?igshid=NmQ2ZmYxZjA="><img id="insta" src="https://user-images.githubusercontent.com/115472816/203399987-f0496515-abac-4253-879e-85413fd1f777.png" width="20" height="20"></a>
+            <a href="mailto:tiagocardoso1357@gmail.com"><img src="https://user-images.githubusercontent.com/115472816/203399853-367266e7-9588-4a53-b885-ae4bdca40dfb.png" width="23" height="21"></a>
+            <br><br><br>
             ⠀Instituto Federal Goiano - Campus Ceres<br>
-            ⠀Endereço: Caixa Postal 51, Rodovia GO 154, Km 218, s/n, Zona Rural – Ceres – GO, 76.300-000<br>
+            ⠀Endereço: Caixa Postal 51, Rodovia GO 154, Km 03, s/n, Zona Rural – Ceres – GO, 76.300-000<br>
             ⠀Telefone: (62) 3307-7100<br>
             ⠀Site Institucional: <a id="siteif" href="https://ifgoiano.edu.br/ceres">ifgoiano.edu.br/ceres</a>
         </address>
