@@ -26,7 +26,7 @@ figcaption{
 }
 
 #mapa{
-    background-image: url("https://user-images.githubusercontent.com/115472816/203569493-fcfb942f-9104-4e61-a2bf-4ad465bea8a3.png");
+    background-image: url("https://user-images.githubusercontent.com/115472816/237531004-f5705e02-b1c2-4fed-83af-7814ecff5054.png");
     background-repeat: no-repeat;
     background-size: 101%;
     border-radius: 60px;
@@ -44,14 +44,14 @@ a:link, a:visited{
 #fab_racao{
     background-color: transparent;
     border: none;
-    margin-left: 595px;
+    margin-left: 33%;
 }
 
 #entrada_IF{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 476px;
+    margin-left: 23%;
     display: inline-block;
 }
 
@@ -59,8 +59,8 @@ a:link, a:visited{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 510px;
-    margin-top: 30px;
+    margin-left: 28%;
+    margin-top: 1%;
     float: left;
 }
 
@@ -68,7 +68,7 @@ a:link, a:visited{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin: -90px;
+    margin: -6%;
     display: inline-block;
 }
 
@@ -76,21 +76,23 @@ a:link, a:visited{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 300px;
+    margin-left: 10%;
 }
 
 #ponto5{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 1137px;
+    margin-left: 30%;
+    display: inline;
 }
 
 #ponto1{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 62px;
+    margin-left: -11.8%;
+    display: inline;
 }
 
 
@@ -98,7 +100,7 @@ a:link, a:visited{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 655px;
+    margin-left: 28.4%;
     display: inline-block;
 }
 
@@ -106,15 +108,14 @@ a:link, a:visited{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 361px;
-    margin-top: 41px;
+    margin-left: 22%;
 }
 
 #ponto2{
     background-color: transparent;
     border: none;
     padding: 0px;
-    margin-left: 52px;
+    margin-left: 6%;
 }
 
 
@@ -140,15 +141,15 @@ a:link, a:visited{
 
 #colaborador1{
     font-size: 20px;
-    display: inline-block;
     text-align: center;
-    margin-right: 100px;
+    margin-right: 200px;
+    display: inline-block;
 }
 
 #colaborador2{
     font-size: 20px;
-    display: inline-block;
     text-align: center;
+    display: inline-block;
 }
 
 [id ^= sobre]{
@@ -289,8 +290,8 @@ a:link, a:visited{
     left: 0;
     right: 0;
     margin: auto;
-    width: 800px;
-    height: 345px;
+    width: 1300px;
+    height: 600px;
     padding: 15px;
     border: dashed 3px #3e7012;
     border-radius: 25px;
