@@ -142,14 +142,6 @@ a:link, a:visited{
 #colaborador1{
     font-size: 20px;
     text-align: center;
-    margin-right: 200px;
-    display: inline-block;
-}
-
-#colaborador2{
-    font-size: 20px;
-    text-align: center;
-    display: inline-block;
 }
 
 [id ^= sobre]{
