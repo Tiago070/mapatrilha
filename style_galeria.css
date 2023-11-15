@@ -1,0 +1,65 @@
+@font-face{
+    font-family: 'BaVfont';
+    src: url('PinkChicken-Regular.ttf');
+}
+
+body{
+    font-family: 'BaVfont';
+    color: #2b3308;
+    background-color: #a9ce3a;
+}
+
+#tituloo{
+    text-align: center;
+    font-size: 2.8em;
+    display: inline-block;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+} 
+
+[id ^= button] {
+    background-color: #b7d55e; /* Green */
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 8px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 1.3em;
+    font-family:'BaVfont';
+    margin: 0px 124px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+  
+[id ^= button] {
+    background-color: #b7d55e; 
+    color: black; 
+    border: 2px solid #3e7012;
+}
+  
+[id ^= button]:hover {
+    background-color: #b7d55e;
+    color: white;
+}
+
+[id ^= button]:active {
+    background-color: #259233;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#foto{
+    border-radius: 15px;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    border: 1px solid rgb(24, 127, 51);
+    background-color:#3e7012;
+}
